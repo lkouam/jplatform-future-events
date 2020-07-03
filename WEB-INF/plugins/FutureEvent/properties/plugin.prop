@@ -15,4 +15,4 @@
 # ui.editportlet.usage.skin.{jcmsplugin.plugin.sample}: Usage label for skin
 
 # LESS
-#channel.less.plugins/${pluginName}Plugin/css/plugin.css:    plugins/${pluginName}Plugin/css/plugin.less
+channel.less.plugins/FutureEvent/css/style.css:    plugins/FutureEvent/css/style.less
