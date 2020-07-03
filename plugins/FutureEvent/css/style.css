@@ -1,0 +1,109 @@
+.ID_lan_10005951 .panel-heading .editArea {
+  display: inherit !important;
+}
+.furtur-events-box {
+  background: #AFD7CF;
+  padding: 40px 15px 10px 4px;
+  border-radius: 8px;
+  border: 0 none transparent;
+}
+.furtur-events-box .date-icon {
+  padding: 5px;
+  background: #F29200;
+  border-radius: 14px;
+}
+.furtur-events-box .date-icon .jalios-icon {
+  font-size: 13px;
+  color: #fff;
+}
+.furtur-events-box .next-events {
+  border-right: 2px solid #858259;
+  display: inline-block;
+  height: 100%;
+  padding: 0 30px 0 20px;
+}
+.furtur-events-box .next-events .event-card {
+  position: relative;
+}
+.furtur-events-box .next-events .event-card .event-dates {
+  position: absolute;
+  right: 0;
+  top: 182px;
+  width: 120px;
+}
+.furtur-events-box .next-events .event-card .event-dates.interval {
+  padding-top: 16px;
+}
+.furtur-events-box .next-events .event-card .event-dates .date-icon {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+}
+.furtur-events-box .next-events .event-card .event-dates .date-icon .jalios-icon {
+  float: right;
+}
+.furtur-events-box .next-events .event-card .event-cat {
+  position: absolute;
+  top: 280px;
+  left: 18px;
+}
+.furtur-events-box .next-events .event-card .card-block p {
+  font-size: 15px;
+}
+.furtur-events-box .next-events .card-responsive-layout .card .card-img {
+  height: 300px;
+}
+.furtur-events-box .coming-events .title {
+  padding: 0px 10px 20px 10px;
+  font-size: 23px;
+}
+.furtur-events-box .coming-events .title .date-icon {
+  padding: 0px 6px;
+}
+.furtur-events-box .coming-events .events-inline-items {
+  padding-left: 0;
+  padding-right: 0;
+}
+.furtur-events-box .coming-events .events-inline-items .row-event {
+  padding: 18px 0;
+}
+.furtur-events-box .coming-events .events-inline-items .row-event + .row-event {
+  border-top: 2px solid #fff;
+}
+.furtur-events-box .coming-events .events-inline-items .row-event .event-tag {
+  padding-top: 6px;
+}
+.furtur-events-box .coming-events .events-inline-items .row-event .event-hour {
+  float: right;
+}
+.furtur-events-box .coming-events .events-inline-items .row-event .event-cat {
+  background: #fff;
+  color: #F29200;
+}
+.furtur-events-box .coming-events .events-inline-items .row-event .col-1 {
+  margin-left: -15px;
+}
+.furtur-events-box .event-dates {
+  position: relative;
+  background: #3A3A3A;
+  color: #fff;
+  padding: 0px 20px;
+  height: 105px;
+  text-align: center;
+  border-radius: 10px;
+  line-height: 35px;
+  width: 120px;
+}
+.furtur-events-box .event-dates .day-month {
+  font-weight: 800;
+  font-size: 50px;
+}
+.furtur-events-box .event-cat {
+  font-weight: 700;
+  color: #fff;
+  padding: 8px;
+  border-radius: 5px;
+  background: #F29200;
+  text-transform: uppercase;
+}
+/*# sourceMappingURL=style.css.map */

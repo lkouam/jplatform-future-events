@@ -1,0 +1,128 @@
+// Include variables and mixins
+@import "../../../css/jalios/core/init-mixins.less";
+
+
+.ID_lan_10005951 {
+	.panel-heading .editArea {
+	    display: inherit !important;
+	}	
+}
+
+
+.furtur-events-box {
+	background: #AFD7CF; //#65A0C5;
+    padding: 40px 15px 10px 4px;
+	border-radius: 8px;
+    border: 0 none transparent;
+
+	.date-icon {
+	    padding: 5px;
+	    background: #F29200;
+	    border-radius: 14px;
+		.jalios-icon {
+			font-size: 13px;
+		    color: #fff;
+		}					
+	}
+				
+	.next-events {
+	    border-right: 2px solid #858259;
+	    display: inline-block;
+	    height: 100%;
+	    padding: 0 30px 0 20px;		
+		.event-card {
+			position: relative;
+			
+			.event-dates {
+				position: absolute;
+			    right: 0;
+			    top: 182px;
+    			width: 120px;
+				&.interval {
+					padding-top: 16px;
+				}
+				.date-icon {
+					position: absolute;
+				    top: -10px;
+				    right: -10px;
+					.jalios-icon {
+					    float: right;						
+					}	
+				}
+			}
+			.event-cat {
+			    position: absolute;
+			    top: 280px;
+			    left: 18px;
+			}
+			.card-block {
+				p {
+					font-size: 15px;
+				}
+			}
+		}
+		.card-responsive-layout .card .card-img {
+		    height: 300px;
+		}		
+	}
+	
+	.coming-events {
+		.title {
+    		padding: 0px 10px 20px 10px;
+    		font-size: 23px;
+			.date-icon {
+				padding: 0px 6px;
+			}			
+		}
+		.events-inline-items {
+			padding-left: 0;
+			padding-right: 0;
+			
+			.row-event {
+				padding: 18px 0;
+				& + .row-event {
+					border-top: 2px solid #fff;;
+				}
+				.event-tag {
+					padding-top: 6px;
+				}
+				.event-hour {
+					float: right;
+				}
+				.event-cat {
+					background: #fff;
+					color: #F29200;
+				}
+				.col-1 {
+					margin-left: -15px;
+				}
+			}
+			
+		}
+	}
+	
+	.event-dates {
+		position: relative;
+		background: #3A3A3A;
+	    color: #fff;
+	    padding: 0px 20px;
+	    height: 105px;
+	    text-align: center;
+	    border-radius: 10px;
+	    line-height: 35px;
+    	width: 120px;
+		.day-month {
+		    font-weight: 800;
+		    font-size: 50px;					
+		}		
+	}	
+	
+	.event-cat {
+	    font-weight: 700;
+	    color: #fff;
+	    padding: 8px;
+	    border-radius: 5px;
+	    background: #F29200;	
+		text-transform: uppercase;			
+	}	
+}
