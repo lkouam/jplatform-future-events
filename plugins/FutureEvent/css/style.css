@@ -93,6 +93,7 @@
   border-radius: 10px;
   line-height: 35px;
   width: 120px;
+  text-transform: uppercase;
 }
 .furtur-events-box .event-dates .day-month {
   font-weight: 800;

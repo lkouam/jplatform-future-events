@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plugin PUBLIC "-//JALIOS//DTD JCMS-PLUGIN 1.7//EN" "http://support.jalios.com/dtd/jcms-plugin-1.7.dtd">
 
-  <plugin name="FutureEvent" version="1.0" author="Jalios SA" license="JALIOS" initialize="true" jcms="" order="0" url="" jsync="false" appserver="">
+  <plugin name="FutureEvent" version="1.1" author="Jalios SA" license="JALIOS" initialize="true" jcms="" order="0" url="" jsync="false" appserver="">
 
   <label xml:lang="fr">FutureEvent</label>
   <description xml:lang="fr">FutureEvent</description>
 
   <types>
+     <type name="FutureEvent">
+      <file path="doFutureEventFullDisplay.jsp" />
+    </type> 
 	  <templates type="PortletQueryForeach">
 	    <template name="custom" file="doPQFFutureEvents.jsp" usage='box'>
 	      <label xml:lang="en">Future Event Template</label>
