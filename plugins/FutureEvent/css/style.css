@@ -83,6 +83,9 @@
 .furtur-events-box .coming-events .events-inline-items .row-event .col-1 {
   margin-left: -15px;
 }
+.furtur-events-box .coming-events .events-inline-items .row-event a {
+  color: #000;
+}
 .furtur-events-box .event-dates {
   position: relative;
   background: #3A3A3A;
